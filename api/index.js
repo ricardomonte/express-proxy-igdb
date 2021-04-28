@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const fetch = require("node-fetch");
 require("dotenv").config();
 
-const { getToken } = require("./getToken");
+const { getToken } = require("../getToken");
 let ids;
 
 const app = express();
